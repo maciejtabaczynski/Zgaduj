@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: #009a99;
+  color: #072446;
+}
+
+.container {
+  width: 40vw;
+  height: 40vh;
+  margin: 30vh auto;
+}
+
+h1{ font-size: 50px;}
+
+p{ font-size: 30px;}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#button {
+  width: 150px;
+  background-color: #00546b;
+  border: 0;
+  color: white;
+  font-size: 16px;
+}
+
+footer {font-size: 0.6rem;}
+
+
+
+
+@media (max-width: 500px) {
+  body {
+    background: dodgerblue;
+  }
+  .container {
+    width: 50vw;
+    height: 50vh;
+    margin: 10vh auto;
+  }
+}
+
+
+@media (max-height: 500px) {
+  body {
+    background: dodgerblue;
+  }
+  .container {
+    width: 20vw;
+    height: 20vh;
+    margin: 10vh auto;
+  }
+  h1, p {
+    font-size: 15px;
+  }
+}
